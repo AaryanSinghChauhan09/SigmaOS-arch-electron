@@ -1,10 +1,13 @@
 [package]
-name = "arch-electron"
+name = "sigmaos-arch-electron"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-electron component - Inspired by Arch Linux and Debian"
+description = "Electron-like desktop application framework for SigmaOS"
 license = "MIT"
 repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-electron"
 
 [dependencies]
-thiserror = "2"
+
+[lib]
+name = "sigmaos_arch_electron"
+path = "src/lib.rs"
