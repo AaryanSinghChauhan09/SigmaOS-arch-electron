@@ -1,4 +1,4 @@
-# SigmaOS-arch-electron
+# SigmaOS-electron
 
 GitHub description is a placeholder; component scope remains unclassified.
 

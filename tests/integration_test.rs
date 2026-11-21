@@ -1,7 +1,7 @@
-// Integration test for SigmaOS-arch-electron
+// Integration test for SigmaOS-electron
 // Verifies the crate builds and links as a dependency.
 
-use sigmaos_arch_electron::{AppConfig, ElectronManager, WindowConfig};
+use sigmaos_electron::{AppConfig, ElectronManager, WindowConfig};
 
 #[test]
 fn crate_links_and_runs() {

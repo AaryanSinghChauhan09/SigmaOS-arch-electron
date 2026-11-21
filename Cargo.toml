@@ -1,13 +1,13 @@
 [package]
-name = "sigmaos-arch-electron"
+name = "sigmaos-electron"
 version = "0.1.0"
 edition = "2021"
 description = "Electron-like desktop application framework for SigmaOS"
 license = "MIT"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-electron"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-electron"
 
 [dependencies]
 
 [lib]
-name = "sigmaos_arch_electron"
+name = "sigmaos_electron"
 path = "src/lib.rs"
